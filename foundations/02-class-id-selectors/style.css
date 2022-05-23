@@ -2,3 +2,9 @@
     background-color: #e26161;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
+
+#practiceIDSelector {
+    color: #000fff;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+    font-size: 36px;
+}
