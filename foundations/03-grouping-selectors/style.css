@@ -1,0 +1,16 @@
+
+.blackButtonClass {
+    background-color: black;
+    color: white;
+}
+
+.yellowButtonClass {
+    background-color: yellow;
+    color: black;
+}
+
+.yellowButtonClass, 
+.blackButtonClass {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
