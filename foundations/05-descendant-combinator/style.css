@@ -1,5 +1,12 @@
-div p {
+/* div p {
     background-color: yellow;
+    color: red;
+    font-size: 34px;
+    font-family: Helvetica;
+} */
+
+.container .text {
+    background-color: green;
     color: red;
     font-size: 34px;
     font-family: Helvetica;
