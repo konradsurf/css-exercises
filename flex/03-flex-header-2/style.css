@@ -12,6 +12,12 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* SOLUTION BELOW */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px 0 8px;
+  gap: 16px;
 }
 
 .profile-image {
@@ -45,4 +51,14 @@ a {
 
 ul {
   list-style-type: none;
+  /* SOLUTION BELOW */
+  display: flex; /* took UL out of block and put them in line */
+  gap: 2em; /* creates gap between link-one, link.... etc */
+}
+
+/* SOLUTION BELOW */
+
+.right, .left {
+  display: flex;
+  gap: 16px; 
 }
